@@ -1,0 +1,128 @@
+/* Overall page styling */
+.App {
+  text-align: center;
+  background-color: #f4f4f9; /* Light background color that's not white */
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #333; /* Dark header background for contrast */
+  padding: 20px;
+  color: #f9f9f9; /* Light text color to stand out */
+}
+
+.App-header h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff; /* Blue button */
+  color: #fff; /* White text for buttons */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.dashboard-container {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #e2e2e2; /* Soft grey background for the dashboard section */
+  border-radius: 10px;
+}
+
+.dashboard-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.wallet-section {
+  background-color: #007bff; /* Blue wallet section background */
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.wallet-section p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.dashboard-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f0f0f0; /* Soft grey for sections like Market Data, Portfolio */
+  border-radius: 5px;
+  text-align: left;
+}
+
+.dashboard-section h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.dashboard-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+.insurance-container {
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #fafafa; /* Light grey background for insurance */
+  border-radius: 5px;
+}
+
+.insurance-message {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #333;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.message-part {
+  width: 48%;
+  padding: 10px;
+}
+
+.message-part h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.message-part p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.insurance-form-section {
+  text-align: center;
+}
+
+.insurance-form-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.insurance-form-link:hover {
+  background-color: #0056b3;
+}
